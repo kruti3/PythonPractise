@@ -9,5 +9,6 @@ arr = f.readlines()
 k = len(arr)
 #Generating a random number
 x = random.randrange(0,k)
-print arr[x]
+print "Number of lines is:",k
+print "Line no.:\t%d\nLine:\t%s"%(x,arr[x])
 f.close()
